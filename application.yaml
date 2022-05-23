@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/techvishal1988/techvishal1988.git
+    repoURL: https://github.com/techvishal1988/centralgit.git
     targetRevision: HEAD
     path: dev
   destination:
@@ -17,4 +17,4 @@ spec:
       - CreateNamespace =true
       automated:
          selfHeal: true
-         prune: true
+          prune: true
